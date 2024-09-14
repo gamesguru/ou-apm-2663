@@ -1,0 +1,9 @@
+P,Q,P & Q,
+T,T,T,
+T,F,F,
+F,T,F,
+F,F,F,
+,,,
+,,,since column A is true
+,,,"where ever column C is true,"
+,,,P & Q => P

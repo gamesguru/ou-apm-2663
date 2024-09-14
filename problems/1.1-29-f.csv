@@ -1,0 +1,7 @@
+P,F,
+T,F,
+F,F,
+,,
+,,since column A is true
+,,"where ever column B is true (never, nowhere),"
+,,F => P

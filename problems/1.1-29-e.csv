@@ -1,0 +1,9 @@
+P,!P,!P→F,
+T,F,T,
+F,T,F,
+,,,
+,,,since column A is true
+,,,"where ever column C is true,"
+,,,!P→F => P
+,,,
+,,,NOTE: THIS ALSO HOLDS <=>

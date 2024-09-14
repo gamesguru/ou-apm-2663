@@ -1,0 +1,11 @@
+P,Q,!P,!Q,P || Q,!( P || Q),!P & !Q,
+T,T,F,F,T,F,F,
+T,F,F,T,T,F,F,
+F,T,T,F,T,F,F,
+F,F,T,T,F,T,T,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,column F  ≡ column G
+,,,,,,,so
+,,,,,,,!(P || Q) ⟺ !P & !Q

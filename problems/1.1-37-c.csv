@@ -1,0 +1,16 @@
+P,Q,!Q,P & Q,P & !Q,(P & Q) || (P & !Q),P || Q,P || !Q,(P || Q) & (P || !Q),
+T,T,F,T,F,T,T,T,T,
+T,F,T,F,T,T,T,T,T,
+F,T,F,F,F,F,T,F,F,
+F,F,T,F,F,F,F,T,F,
+,,,,,,,,,
+,,,,,,,,,since column F is identical
+,,,,,,,,,"to column A,"
+,,,,,,,,,P <=> (P & Q) || (P & !Q)
+,,,,,,,,,
+,,,,,,,,,since column I is also identical
+,,,,,,,,,"to column A (and F),"
+,,,,,,,,,P <=> (P || Q) & (P || !Q)
+,,,,,,,,,
+,,,,,,,,,"also observe that, transitively:"
+,,,,,,,,,(P & Q) || (P & !Q) <=> (P || Q) & (P || !Q)

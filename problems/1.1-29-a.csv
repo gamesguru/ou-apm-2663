@@ -1,0 +1,11 @@
+P,Q,P→Q,P & (P→Q),
+T,T,T,T,
+T,F,F,F,
+F,T,T,F,
+F,F,T,F,
+,,,,
+,,,,
+,,,,"where ever column D is true,"
+,,,,column Q is also true.
+,,,,so
+,,,,P & (P→Q) => Q

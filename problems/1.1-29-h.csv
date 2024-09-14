@@ -1,0 +1,13 @@
+P,Q,R,P→Q,Q→R,(P→Q) & (Q→R),P→R,
+T,T,T,T,T,T,T,
+T,T,F,T,F,F,F,
+T,F,T,F,T,F,T,
+T,F,F,F,T,F,F,
+F,T,T,T,T,T,T,
+F,T,F,T,F,F,T,
+F,F,T,T,T,T,T,
+F,F,F,T,T,T,T,
+,,,,,,,
+,,,,,,,since column G is true
+,,,,,,,"where ever column F is true,"
+,,,,,,,(P→Q) & (Q→R) => P→R

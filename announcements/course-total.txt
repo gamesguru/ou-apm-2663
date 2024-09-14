@@ -1,0 +1,4 @@
+Course Total
+by Eddie Cheng - Wednesday, August 28, 2024, 2:36 PM
+Number of replies: 0
+The last column regarding your course total is not accurate because it is computed by Moodle using its own formula, it will be updated at the end of the semester.
