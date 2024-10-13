@@ -1,0 +1,8 @@
+Optional Feedback 1 (No credit)
+Completion requirements
+Opened: Friday, September 20, 2024, 12:00 AM
+Due: Tuesday, September 24, 2024, 3:00 PM
+
+Q13 Pg 102.
+
+Show that if A and B are nonempty sets, then A X B = B X A if and only if A = B. (Here X is the Cartesian product.)

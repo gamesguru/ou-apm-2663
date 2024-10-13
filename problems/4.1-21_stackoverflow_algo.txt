@@ -1,0 +1,2 @@
+algorithm - Express a given number as a sum of four squares - Stack Overflow
+https://stackoverflow.com/questions/41524508/express-a-given-number-as-a-sum-of-four-squares

@@ -1,0 +1,8 @@
+Optional Feedback 2 (no credit)
+Completion requirements
+Opened: Thursday, October 10, 2024, 12:00 AM
+Due: Monday, October 14, 2024, 9:00 AM
+
+Pg 202, 25a)and 26a) Determine whether the following relation R is an equivalence relation, and if so, describe the equivalence classes.
+
+The ground set is the set of real numbers. aRb if the floor of a is equal to the floor of b.
