@@ -1,0 +1,2 @@
+n:=5
+1/2!*(Binomial[8n,2n]Binomial[2n,n](n!)^2)*1/2!*(Binomial[6n,2n]Binomial[2n,n](n!/2)^2)(Binomial[4n,n]*n!/2*Binomial[3n,n]*n!/2)(2n-1)!/2

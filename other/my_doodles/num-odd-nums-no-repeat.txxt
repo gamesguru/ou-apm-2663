@@ -1,0 +1,86 @@
+
+last digit must be odd
+can't repeat any digits
+
+7 8 9 5
+_ _ _ _
+
+
+6 _ 543
+
+7 _ 043
+
+
+
+8 8 7 5
+_ _ _ _
+
+^ can't be zero or ones place
+  ^ can be zero, but not 1000s or 1s place
+
+
+
+case 1: ones place is  0
+7 8 9 5
+_ _ _ _
+
+case 2: ones place not 0
+6 8 9 5
+_ _ _ _
+
+
+better solution:
+
+case 1: ones is 0
+9 8 7 1
+_ _ _ _
+
+case 2: ones is not 0
+8 8 7 4
+_ _ _ _
+
+
+
+1 2 2 = 4 (begin with 1)
+_ _ _
+
+1 0 0
+1 1 0
+1 0 1 -> both
+1 1 1 -> both
+
+
+2 2 1 = 4 (end with 1)
+_ _ _
+
+1 0 1 -> both
+1 1 1 -> both
+
+
+
+1 2 1 = 2 (begin & with 1)
+_ _ _
+
+1 0 1
+1 1 1
+
+
+
+general case n
+
+begin with 1
+1 2 2 2     2 2 = 2^(n-1)
+_ _ _ _ ... _ _
+
+end with 1
+2 2 2 2     2 1 = 2^(n-1)
+_ _ _ _ ... _ _
+
+both begin & end with 1
+1 2 2 2     2 1 = 2^(n-2)
+_ _ _ _ ... _ _
+
+2^(n-1) + 2^(n-1) - 2^(n-2)
+2^n - 2^(n-2)
+
+4*2^(sn-2) - 1*2^(n-2) = 3*2^(n-2)

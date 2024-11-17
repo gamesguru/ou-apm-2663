@@ -1,0 +1,11 @@
+R, S both symmetric
+
+Suppose not. then R u S not symmetric.
+
+So we have (a,b) e R n S, but (b,a) not in R n S.
+
+
+
+
+A < B => P(A) < P(B)
+
