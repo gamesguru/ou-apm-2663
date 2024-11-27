@@ -8,8 +8,13 @@ Created on Mon Nov 11 02:50:11 2024
 
 divis = []
 
-for i in range(1, 600 + 1):
-    if i % 5 == 0 or i % 7 == 0 or i % 17 == 0:
+roof = 600
+p1 = 5
+p2 = 7
+p3 = 17
+
+for i in range(1, roof + 1):
+    if i % p1 == 0 or i % p2 == 0 or i % p3 == 0:
 
         # common_factor = 0
         # if i % 5 == 0:
